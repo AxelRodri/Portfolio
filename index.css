@@ -3,7 +3,13 @@
     padding: 0;
     align-items: center;
     text-align: center;
-    background-image: url(img/imagen_fondo.jpg);
+    background-color: rgb(11, 11, 13);
+    /*
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    */
     color: white;
 }
 a{
@@ -38,7 +44,7 @@ li{
     border-radius: 40%;
 }
 .imagenPersonal{
-    width: 800px;
+    width: 45%;
 }
 .nav__ContenedorSecciones{
     display: flex;
@@ -58,6 +64,7 @@ li{
 .nav__secciones{
     border: 2px solid white;
     border-radius: 30%;
+    position: fixed;
 }
 .nav__seccionesImagen{
     width: 40px;
@@ -69,4 +76,23 @@ li{
 }
 img{
     width: 100px;
+}
+.main__tituloExperiencia{
+    margin-top: 2%;
+    font-size: 2em;
+}
+.main__contenedorTotalExperiencia{
+    display: flex;
+    flex-direction: row;
+}
+.main__ContenedorBloqueLogros{
+    display: flex;
+}
+.main__imagen{
+    width: 90%;
+}
+
+.main__estudiosYHoras{
+    border: 2px solid red;
+    
 }

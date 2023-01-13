@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+    background-image: url(img/imagen_fondo.jpg);
+    color: white;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+}
+.nav__presentacionHola{
+    margin-top: 1%;
+    font-size: 1.5em;
+}
+.nav__tituloNombreCompleto{
+    font-size: 2.9em;
+    margin: 0.4%;
+}
+.nav__tituloDesarrollador{
+    color: rgba(255, 255, 255, 0.582);
+}
+.nav__linkCVparrafo{
+    margin: 1%;
+}
+.nav__linkCV{
+    border: 2px solid red;
+    padding: 0.4%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    font-size: 1.5em;
+    border-radius: 40%;
+}
+.imagenPersonal{
+    width: 800px;
+}
+.nav__ContenedorSecciones{
+    display: flex;
+    justify-content:space-around;
+
+}
+.nav__redesSociales{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: none;
+}
+.nav__imagenRedesSociales{
+    width: 30px;
+    color: aliceblue;
+}
+.nav__secciones{
+    border: 2px solid white;
+    border-radius: 30%;
+}
+.nav__seccionesImagen{
+    width: 40px;
+}
+
+.nav__accion{
+    vertical-align: inherit;
+    transform: rotate(90deg);
+}
+img{
+    width: 100px;
+}

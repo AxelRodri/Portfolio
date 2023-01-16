@@ -1,3 +1,6 @@
+:root{
+    --crippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+}
 * {
     margin: 0;
     padding: 0;
@@ -10,8 +13,9 @@
     background-attachment: fixed;
     background-size: 100%;
     */
-    color: white;
+    color: rgb(255, 255, 255);
 }
+
 a{
     list-style: none;
     text-decoration: none;
@@ -25,27 +29,64 @@ li{
     margin-top: 1%;
     font-size: 1.5em;
 }
+.contenedor__presentacionPersonal{
+    display: flex;
+    flex-direction: column;
+
+}
+.personal{
+    position: relative;
+    padding-left: 1rem;
+    transition: color 1.5s;
+    
+}
+.personal::before{
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 110%;
+    height: 100%;
+    z-index: -auto;
+    background-color: rgb(97, 223, 223);
+    clip-path: var(--crippy);
+    transition: clip-path 2s;
+}
+
 .nav__tituloNombreCompleto{
     font-size: 2.9em;
-    margin: 0.4%;
+    margin: auto;
+
 }
 .nav__tituloDesarrollador{
-    color: rgba(255, 255, 255, 0.582);
+    color: rgba(224, 224, 224, 0.582);
+    --crippy: circle(0% at 50% 50%);
+
+
 }
-.nav__linkCVparrafo{
-    margin: 1%;
+.nav__tituloDesarrollador::before{
+    background-color: aquamarine;
 }
-.nav__linkCV{
-    border: 2px solid red;
-    padding: 0.4%;
-    padding-left: 1.5%;
-    padding-right: 1.5%;
-    font-size: 1.5em;
-    border-radius: 40%;
+
+.nav__tituloNombreCompleto:hover::before{
+    clip-path: polygon(7% 0, 90% 0, 100% 100%, 0 100%);
+}
+
+.nav__tituloNombreCompleto:hover + .nav__tituloDesarrollador::before{
+    --crippy: circle(150% at 50% 50%);
+    transition: clip-path 1.5s 1s;
+}
+.nav__tituloNombreCompleto:hover, .nav__tituloNombreCompleto:hover + .nav__tituloDesarrollador{
+    color: white;
 }
 .imagenPersonal{
+    margin-top: 2%;
     width: 45%;
 }
+/*FINAL DE SECCION DE TITULO/NOMBRE Y FOTO
+COMIENZO DE SECCION DE SECCIONES*/
+
 .nav__ContenedorSecciones{
     display: flex;
     justify-content:space-around;
@@ -57,14 +98,28 @@ li{
     gap: 10px;
     border: none;
 }
+
+.github{
+    color: white;
+    background-color: white;
+}
 .nav__imagenRedesSociales{
     width: 30px;
     color: aliceblue;
 }
+/*SECCION DE REDES SOCIALES TERMINADO
+SECCION DE SECCIONES INICIO*/
+
 .nav__secciones{
     border: 2px solid white;
-    border-radius: 30%;
     position: fixed;
+    padding: 2%;
+    border-radius: circle 50%;
+    padding-bottom: 0.2%;
+    padding-top: 0.6%;
+    border-radius: 16px;
+    border-style: solid;
+    background-color: transparent;
 }
 .nav__seccionesImagen{
     width: 40px;
@@ -77,22 +132,32 @@ li{
 img{
     width: 100px;
 }
+
+/*SECCION DE SECCIONES TERMINADO
+SECCION DE EXPERIENCIA INICIO*/
 .main__tituloExperiencia{
     margin-top: 2%;
-    font-size: 2em;
+    font-size: 2.5em;
 }
 .main__contenedorTotalExperiencia{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 .main__ContenedorBloqueLogros{
     display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
 }
 .main__imagen{
     width: 90%;
+    color: aliceblue;
+}
+.main__contenedorQuienSoy{
+    justify-content: center;
 }
 
 .main__estudiosYHoras{
     border: 2px solid red;
-    
+    padding: 3%;
 }

@@ -161,3 +161,22 @@ SECCION DE EXPERIENCIA INICIO*/
     border: 2px solid red;
     padding: 3%;
 }
+/*SECCION DE TECNOLOGIA
+IMAGENES DE LENGUAJES*/
+
+.main__tituloTecnologias{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.main__contenedorImagenestecnologias{
+    display: flex;
+}
+.main__seccionTecnologiaContenedor{
+
+}
+
+.main__imagenTecnologia{
+    width: 10%;
+}
+

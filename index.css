@@ -123,7 +123,7 @@ SECCION DE SECCIONES INICIO*/
     padding-top: 0.6%;
     border-radius: 16px;
     border-style: solid;
-    background-color: transparent;
+    background-color: black;
 }
 .nav__seccionesImagen{
     width: 40px;
@@ -232,5 +232,76 @@ COMIENZO DE LA SECCION DE SERVICIOS
     display: flex;
     justify-content: center;
     gap: 1vw;
+    margin-bottom: 2%;
 }
+.main__imagenPortfolio{
+    height: 40vh;
+    width: auto;
+}
+/*
+Termino la parte de Portfolio
+comienza seccion Contacto
+*/
+.seccion__contactame{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+.footer__contenedorContacto{
+    border: 1px solid blue;
+    border-radius: 1.2rem;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    height: 20vh;
+    gap: 5%;
+}
+.footer__imagenContacto{
+    width: 5vw;
+    margin-top: 1%;
+}
+.footer__descripcionTituloContacto{
+    color: rgba(255, 255, 255, 0.575);
+}
+.footer__botonContacto{
+    margin-top: 1%;
+}
+.footer__tituloNombrePersonal{
+    margin-bottom: 1vw;
+    background-color: rgb(44, 61, 75);
+}
+.footer__contenedorListaSecciones{
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    background-color: rgb(44, 61, 75);
+}
+.footer__botonContacto{
+    color: rgb(26, 228, 255);
+}
+.footer__contenedorImagenesRedes{
+    margin-top: 4vh;
+    margin-bottom: 3vh;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    background-color: rgb(44, 61, 75);
+}
+.footer__finalDeFootter{
+    background-color: rgb(44, 61, 75);
+}
+.footer__tituloNombrePersonal{
+    font-size: 2.5em;
+}
+.footer__botonSecciones{
+    background-color: rgb(44, 61, 75);
 
+}
+.footer__imagenRedes{
+    background-color: rgb(44, 61, 75);
+}
+.footer__DerechosReservados{
+    background-color: rgb(44, 61, 75);
+}

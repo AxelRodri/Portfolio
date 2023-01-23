@@ -126,6 +126,7 @@ SECCION DE SECCIONES INICIO*/
     border-radius: 16px;
     border-style: solid;
     background-color: black;
+    margin-top: -4%;
 }
 .nav__seccionesImagen{
     width: 40px;
@@ -195,7 +196,6 @@ SECCION DE EXPERIENCIA INICIO*/
 .main__descripcionBotonContacto{
     font-size: 2.5em;
     border:2px solid rgb(70, 135, 189);
-    width: auto;
     margin: auto;
     border-radius: 1.5rem;
     padding-bottom: 0.8%;
@@ -253,7 +253,7 @@ COMIENZO DE LA SECCION DE SERVICIOS
     border-bottom-left-radius:5rem;
     border-bottom-right-radius: 5rem;
     height: 30vh;
-    width: 30%;
+    width: 30vw;
 
 }
 .main__tituloseccionServicios{
@@ -276,26 +276,27 @@ COMIENZO DE LA SECCION DE SERVICIOS
     margin-bottom: 1%;
 }
 .main__contenedorPortfolio{
-    width: 30vw;
-    height: 60vh;
     border: 1px solid gray;
     border-radius: 1.5rem;
     padding-bottom: 1%;
+    width: 30%;
+    height: auto;
 }
 .main__seccionPortfolio{
     display: flex;
     justify-content: center;
     gap: 1vw;
     margin-bottom: 2%;
+    margin: auto;
 }
 .main__imagenPortfolio{
-    height: 80%;
-    width: 50%;
+    width: 30%;
 }
 .main__tituloProyectoPortfolio{
     font-size: 1.5em;
     margin-top: 2%;
     margin-bottom: 2%;
+    color: rgb(70, 135, 189);
 }
 .main__contenedorBotonesPortfolio{
     display: flex;
@@ -317,6 +318,9 @@ COMIENZO DE LA SECCION DE SERVICIOS
 Termino la parte de Portfolio
 comienza seccion Contacto
 */
+.footer__tituloContacto{
+    margin-top: 1%;
+}
 .seccion__contactame{
     text-align: center;
     justify-content: center;
@@ -357,8 +361,8 @@ comienza seccion Contacto
     color: rgb(26, 228, 255);
 }
 .footer__contenedorImagenesRedes{
-    margin-top: 4vh;
-    margin-bottom: 3vh;
+    margin-top: 4%;
+    margin-bottom: 3%;
     display: flex;
     justify-content: center;
     gap: 2%;

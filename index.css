@@ -64,7 +64,9 @@ li{
 }
 /*FINAL DE SECCION DE TITULO/NOMBRE Y FOTO
 COMIENZO DE SECCION DE SECCIONES*/
-
+.nav__seccionesAdaptado{
+    display: none;
+}
 .nav__ContenedorSecciones{
     display: flex;
     justify-content:space-around;
@@ -144,12 +146,15 @@ SECCION DE EXPERIENCIA INICIO*/
 .main__contenedorQuienSoy{
     justify-content: center;
 }
+.main__descripcionMia{
+    color: rgba(223, 217, 217, 0.966) ;
+}
 .main__experienciaNOMBRE{
-    color: rgb(89, 128, 160);
+    color: rgb(255, 255, 255);
     font-size: 1.2em;
 }
 .main__experienciaEmpresa{
-    color: brown;
+    color: rgb(224, 224, 224);
     font-size: 1.2em;
 }
 .main__estudiosYHoras{
@@ -179,6 +184,17 @@ SECCION DE EXPERIENCIA INICIO*/
     margin: auto;
     border-radius: 1.5rem;
     padding-bottom: 0.8%;
+}
+.main__descripcionBotonContact{
+    width: 100%;
+}
+.main__descripcionBotonContact:hover{
+    background-color: rgb(44, 61, 75);
+}
+.main__descripcionBotonContacto:hover{
+    transition: 1s all;
+    background-color: rgb(44, 61, 75);
+    font-size: 3em;
 }
 /*SECCION DE TECNOLOGIA
 IMAGENES DE LENGUAJES*/
@@ -406,8 +422,18 @@ COMIENZO DE DISEÑO EN RESPONSIVE
     }
     .nav__ContenedorSecciones{
         width: 100%;
+    }
+    .main__contenedorPrincipalExperiencia{
+        margin-top: 10%;
+    }
+    .main__estudiosYHoras{
+        border: none;
+    }
+    .main__tituloExperiencia{
+        color: rgba(250, 250, 250, 0.596);
+    }
     
-    }.nav__redesSociales{
+    .nav__redesSociales{
         display: none;
     }
     .main__imagen{
@@ -472,7 +498,22 @@ COMIENZO DE DISEÑO EN RESPONSIVE
         margin-top: 3%;
     }
 }
-@media (max-width: 500px) {
+@media (max-width: 550px) {
+    .imagenPersonal{
+        margin-bottom: 8%;
+    }
+    .nav__seccionesAdaptado{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .nav__seccionesImagenAdaptado{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .nav__seccionesImagenAdaptado:hover{
+        background-color: rgb(44, 61, 75);
+    }
     .main__contenedorImagenestecnologias{
         flex-direction: column;
     }
@@ -480,6 +521,12 @@ COMIENZO DE DISEÑO EN RESPONSIVE
         width: 150%;
         height: auto;
         margin-left: -30%;
+    }
+    .nav__seccionesImagenA{
+        display: none;
+    }
+    .nav__seccionesImagen{
+        display: none;
     }
     .main__tituloServicios{
         padding-top: 10%;

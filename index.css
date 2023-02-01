@@ -275,15 +275,16 @@ COMIENZO DE LA SECCION DE SERVICIOS
     border: 1px solid gray;
     border-radius: 1.5rem;
     padding-bottom: 1%;
-    width: 30%;
+    width: 100%;
     height: auto;
+
 }
 .main__seccionPortfolio{
     display: flex;
-    justify-content: center;
     gap: 1vw;
     margin-bottom: 2%;
     margin: auto;
+    width: 97vw;
 }
 .main__imagenPortfolio{
     width: 30%;

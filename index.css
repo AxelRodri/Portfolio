@@ -7,6 +7,7 @@
     align-items: center;
     text-align: center;
     background-color: rgb(11, 11, 13);
+    font-family:Tahoma, sans-serif;
     /*
     background-image: url(img/fondo.jpg);
     background-repeat: no-repeat;
@@ -188,16 +189,17 @@ SECCION DE EXPERIENCIA INICIO*/
     padding-bottom: 0.8%;
 }
 .main__descripcionBotonContact{
-    width: 100%;
-}
-.main__descripcionBotonContact:hover{
-    background-color: rgb(44, 61, 75);
+    width: 150%;
 }
 .main__descripcionBotonContacto:hover{
     transition: 1s all;
     background-color: rgb(44, 61, 75);
     font-size: 3em;
 }
+.main__descripcionBotonContact:hover{
+    background-color: rgb(44, 61, 75);
+}
+
 /*SECCION DE TECNOLOGIA
 IMAGENES DE LENGUAJES*/
 
@@ -205,8 +207,7 @@ IMAGENES DE LENGUAJES*/
     padding-top: 2%;
     padding-bottom: 2%;
     background-color: rgb(44, 61, 75);
-    border-top-left-radius: 8.5rem ;
-    border-top-right-radius: 8.5rem;
+    font-size: 2.3em;
 }
 
 .main__contenedorImagenestecnologias{
@@ -243,8 +244,6 @@ COMIENZO DE LA SECCION DE SERVICIOS
     gap: 3%;
     background-color: rgb(44, 61, 75);
     padding-bottom: 2%;
-    border-bottom-left-radius: 5.5rem;
-    border-bottom-right-radius: 5.5rem;
 }
 .main__serviciosContenedor{
     border: 1px solid rgba(245, 245, 220, 0.507);
@@ -257,8 +256,6 @@ COMIENZO DE LA SECCION DE SERVICIOS
 .main__tituloseccionServicios{
     border-bottom: 5px solid rgb(44, 61, 75);
     background-color: rgb(44, 61, 75);
-    border-bottom-right-radius: 3rem;
-    border-bottom-left-radius:3rem;
     padding: 4%;
 }
 .main__contenedorListaServicios{
@@ -339,8 +336,6 @@ comienza seccion Contacto
     display: flex;
 }
 .footer__contenedorContacto{
-    border: 1px solid blue;
-    border-radius: 1.2rem;
     width: 50%;
     margin: 0 auto;
     margin-bottom: 1%;

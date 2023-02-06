@@ -112,7 +112,10 @@ SECCION DE SECCIONES INICIO*/
 }
 .nav__seccionesImagen{
     width: 40px;
-
+}
+.nav__seccionesImagen:hover{
+    transition:1s;
+    width: 80px;
 }
 
 .nav__accion{
@@ -311,6 +314,11 @@ COMIENZO DE LA SECCION DE SERVICIOS
     border-radius: 2rem;
     padding: 3%
 }
+.main__botonPortflio:hover{
+    transition: 1s all;
+
+    font-size: 1.5em;
+}
 .main__descripcionProyectoPortfolio{
     margin-bottom: 3%;
 }
@@ -318,6 +326,10 @@ COMIENZO DE LA SECCION DE SERVICIOS
     border: 1px solid aquamarine;
     border-radius: 2rem;
     padding: 3%;
+}
+.main__botonPortfolio:hover{
+    transition: 1s all;
+    font-size: 1.5em;
 }
 /*
 Termino la parte de Portfolio
@@ -367,6 +379,10 @@ comienza seccion Contacto
 .footer__botonContacto{
     color: rgb(26, 228, 255);
 }
+.mensaje:hover{
+    transition: 1s all;
+    font-size: 1.5em;
+}
 .footer__contenedorImagenesRedes{
     margin-top: 4%;
     margin-bottom: 3%;
@@ -384,7 +400,11 @@ comienza seccion Contacto
 .footer__botonSecciones{
     background-color: rgb(44, 61, 75);
     width: 5vw;
+}
 
+.texto1:hover{
+    transition: 1s all;
+    font-size: 1.7em;
 }
 .footer__imagenRedes{
     background-color: rgb(44, 61, 75);
